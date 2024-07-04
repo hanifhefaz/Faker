@@ -4,42 +4,368 @@ namespace Faker\Provider\ps_AF;
 
 class Person extends \Faker\Provider\Person
 {
-    protected static $maleNameFormats = [
-        '{{firstNameMale}} {{lastName}}',
-        '{{firstNameMale}} {{lastName}}',
-        '{{firstNameMale}} {{lastName}}',
-        '{{firstNameMale}} {{lastName}}',
-        '{{titleMale}} {{firstNameMale}} {{lastName}}',
-    ];
+    protected static $maleNameFormats = ['{{ firstNameMale }} {{ lastName }}', '{{ firstNameMale }} {{ lastName }}', '{{ firstNameMale }} {{ lastName }}', '{{ firstNameMale }} {{ lastName }}', '{{ titleMale }} {{ firstNameMale }} {{ lastName }}'];
 
-    protected static $femaleNameFormats = [
-        '{{firstNameFemale}} {{lastName}}',
-        '{{firstNameFemale}} {{lastName}}',
-        '{{firstNameFemale}} {{lastName}}',
-        '{{firstNameFemale}} {{lastName}}',
-        '{{titleFemale}} {{firstNameFemale}} {{lastName}}',
-    ];
+    protected static $femaleNameFormats = ['{{ firstNameFemale }} {{ lastName }}', '{{ firstNameFemale }} {{ lastName }}', '{{ firstNameFemale }} {{ lastName }}', '{{ firstNameFemale }} {{ lastName }}', '{{ titleFemale }} {{ firstNameFemale }} {{ lastName }}'];
 
     /**
      * @see https://
      */
     protected static $firstNameMale = [
-
+        'اختر',
+        'اجمل',
+        'اوښتون',
+        'اتل',
+        'انگار',
+        'ايمل',
+        'انځور',
+        'اباسين',
+        'ازمون',
+        'ارمان',
+        'اڅک',
+        'انځرگل',
+        'اوڅار',
+        'ببری',
+        'بختور',
+        'بیټ',
+        'باتور',
+        'بهادر',
+        'بری',
+        'باز',
+        'برمل',
+        'بڅرکى',
+        'بريالی',
+        'بهير',
+        'پامير',
+        'پروټ',
+        'پسرلی',
+        'پېزوان',
+        'پاچا',
+        'پردېس',
+        'پتيال',
+        'پتنگ',
+        'پښتون',
+        'پاڅون',
+        'پتمن',
+        'پرتمین',
+        'پولاد',
+        'پیاوړی',
+        'پيوستون',
+        'پټان',
+        'پېوند',
+        'تاند',
+        'تکل',
+        'توريال',
+        'تړون',
+        'توريالی',
+        'چمبېلى',
+        'چمتو',
+        'چنار',
+        'چارگل',
+        'څاروان',
+        'څرک',
+        'څپاند',
+        'څرگند',
+        'څراغ',
+        'ځونډی',
+        'ځلاند',
+        'ځير',
+        'ځيگر',
+        'ځواک',
+        'ځيږ',
+        'ځيرک',
+        'خوشال',
+        'خپلواک',
+        'خوځښت',
+        'خيال',
+        'خاورين',
+        'خيبر',
+        'خندان',
+        'خوازک',
+        'دريځ',
+        'روښان',
+        'رښتين',
+        'رنگين',
+        'روان',
+        'ريدی',
+        'ژړک',
+        'ژوند',
+        'ژوندون',
+        'زمری',
+        'زمريالی',
+        'زمرک',
+        'زرغون',
+        'زړگی',
+        'زيار',
+        'زېړگل',
+        'زلمی',
+        'زغرد',
+        'زړور',
+        'زيارمل',
+        'زېرى',
+        'زرين',
+        'ستوری',
+        'سپېلنی',
+        'سلېمان',
+        'سمسور',
+        'سوبمن',
+        'سمندر',
+        'سهارگل',
+        'سمون',
+        'سحر',
+        'سيلاب',
+        'سيلان',
+        'سباوون',
+        'سورگل',
+        'سرتور',
+        'سيال',
+        'سپېڅلى',
+        'سورغر',
+        'شپون',
+        'شمشاد',
+        'شپونکی',
+        'ښاد',
+        'ښادمن',
+        'ښالم',
+        'غاټول',
+        'غروال',
+        'غبرگون',
+        'غازي',
+        'غورځنگ',
+        'غرغښت',
+        'غيرت',
+        'غرنى',
+        'غرزی',
+        'غمی',
+        'غښتلی',
+        'غشى',
+        'کاروان',
+        'کليوال',
+        'کشمالی',
+        'كنيشكا',
+        'کروړ',
+        'كوچى',
+        'گټيالی',
+        'گړندی',
+        'گلالی',
+        'گلاب',
+        'گران',
+        'گلبڼ',
+        'گهيځ',
+        'گلورين',
+        'لونگين',
+        'لېوال',
+        'لرغون',
+        'لونگ',
+        'لمر',
+        'لالی',
+        'لمرڅرک',
+        'ماکو',
+        'مړوند',
+        'مېوند',
+        'مېړنی',
+        'ملنگ',
+        'مين',
+        'ميرويس',
+        'منگول',
+        'مټور',
+        'منلی',
+        'مرغلين',
+        'مخکښ',
+        'ننگ',
+        'ننگيالی',
+        'نوښت',
+        'نوميالی',
+        'نښتر',
+        'ولسمل',
+        'ودان',
+        'وياړ',
+        'وياړمن',
+        'ويال',
+        'ورين',
+        'واکمن',
+        'هېواد',
+        'هاند',
+        'هوډ',
+        'هوډمن',
+        'يون',
+        'يرغل',
     ];
 
     /**
      * @see https://
      */
     protected static $firstNameFemale = [
-
+        'اوښکه',
+        'اناره',
+        'اورنۍ',
+        'اورځلا',
+        'اشرفۍ',
+        'بدرۍ',
+        'برېښنا',
+        'ببرۍ',
+        'بیديا',
+        'بلبله',
+        'بخمله',
+        'بسوگله',
+        'بڼکه',
+        'بختوره',
+        'پتمنه',
+        'پرخه',
+        'پلوشه',
+        'پرتمينه',
+        'پاولينه',
+        'پسته',
+        'پستکۍ',
+        'پښتنه',
+        'پاڼه',
+        'پانگه',
+        'پرخه',
+        'پتاسه',
+        'پېروزه',
+        'تلوسه',
+        'تورپيکۍ',
+        'تالنده',
+        'تمامه',
+        'تاتره',
+        'توتکۍ',
+        'تانده',
+        'تنکۍ',
+        'څپه',
+        'څانگه',
+        'ځلانده',
+        'ځلبله',
+        'ځلا',
+        'ځولۍ',
+        'خزانه',
+        'خياله',
+        'خوږه',
+        'خندا',
+        'خولگۍ',
+        'خوماره',
+        'خيبره',
+        'درخانۍ',
+        'درانۍ',
+        'درخو',
+        'دولته',
+        'ډېوه',
+        'ډالۍ',
+        'رڼا',
+        'راڼۍ',
+        'روښانه',
+        'روهيله',
+        'روهيلۍ',
+        'ژمنه',
+        'ژېړکه',
+        'زرغونه',
+        'زاڼه',
+        'زرلښته',
+        'زردانه',
+        'زرپاڼه',
+        'زرينه',
+        'زرمينه',
+        'زرڅانگه',
+        'زرکه',
+        'زربخته',
+        'سارا',
+        'سارکه',
+        'سارمکۍ',
+        'سارمه',
+        'سپرغۍ',
+        'سوله',
+        'سپينه',
+        'سنځله',
+        'سپوږمۍ',
+        'سوریا',
+        'سېلۍ',
+        'شانداره',
+        'شغله',
+        'شمله',
+        'شاترينه',
+        'شامسته',
+        'شامتوره',
+        'شينکۍ',
+        'شيرينو',
+        'شېبه',
+        'ښايسته',
+        'ښارو',
+        'ښکلا',
+        'ښاپيرۍ',
+        'غونډۍ',
+        'غورځکه',
+        'غرنۍ',
+        'غونچه',
+        'غوټۍ',
+        'غرڅنۍ',
+        'غاټوله',
+        'کوچۍ',
+        'کليواله',
+        'کيږدۍ',
+        'کوکۍ',
+        'کوتره',
+        'گلبشره',
+        'گرانه',
+        'گلبدنه',
+        'گوربته',
+        'گېډۍ',
+        'گورگره',
+        'گلپاڼه',
+        'گلورينه',
+        'گلالۍ',
+        'لښته',
+        'للمه',
+        'لېمه',
+        'لونگينه',
+        'لمبه',
+        'لونگه',
+        'ليندۍ',
+        'مېړنۍ',
+        'ملالۍ',
+        'موسکا',
+        'مينه',
+        'موماڼه',
+        'ميمونه',
+        'ململه',
+        'مالداره',
+        'مرغلره',
+        'مکۍ',
+        'مڼه',
+        'مېلمنه',
+        'ملاله',
+        'مسته',
+        'ملنگه',
+        'مرغۍ',
+        'نازو',
+        'نتکۍ',
+        'نغمه',
+        'نېکمرغه',
+        'ننداره',
+        'نينه',
+        'نېکبخته',
+        'نيازمنه',
+        'واورينه',
+        'وږمه',
+        'ولوله',
+        'وياړمنه',
+        'وړانگه',
+        'ورېښمينه',
+        'هوسۍ',
+        'هوسا',
+        'هسکه',
+        'هوا',
+        'هيله',
+        'هيلۍ',
+        'سلگۍ',
+        'سياله',
+        'سپیڅلې',
+        'سايره',
+        'سندره',
     ];
 
     /**
      * @see https://
      */
-    protected static $lastName = [
-
-    ];
+    protected static $lastName = [];
 
     protected static $titleMale = [];
     protected static $titleFemale = [];
@@ -47,9 +373,9 @@ class Person extends \Faker\Provider\Person
     /**
      * This method returns a valid Afghanistan nationalCode
      *
-     * @example ''
+     * @example '1403010112345'
      *
-     * @see https://
+     * @see https://fa.wikipedia.org/wiki/%D8%AA%D8%B0%DA%A9%D8%B1%D9%87_%D8%AA%D8%A7%D8%A8%D8%B9%DB%8C%D8%AA_%D8%A7%D9%81%D8%BA%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D9%86
      *
      * @return string
      */
@@ -59,37 +385,37 @@ class Person extends \Faker\Provider\Person
         $core = self::createCoreCode();
         $control = self::createControlCode($area, $core);
 
-        return sprintf('%03d%06d%01d', $area, $core, $control);
+        return sprintf('%04d%04d%05d', $area, $core, $control);
     }
 
     /**
-     * This method generates a 3-digit valid area code to be used in nationalCode
+     * This method generates a 4-digit valid area code to be used in nationalCode
      *
      * @return int|string
      */
     private static function createAreaCode()
     {
-        $area = '000';
+        $area = '0000';
 
-        while ($area == '000') {
-            $area = static::numerify('###');
+        while ($area == '0000') {
+            $area = static::numerify('####');
         }
 
         return $area;
     }
 
     /**
-     * This method randomly generates a 6-digit core code for nationalCode
+     * This method randomly generates a 4-digit core code for nationalCode
      *
      * @return string
      */
     private static function createCoreCode()
     {
-        return static::numerify('######');
+        return static::numerify('####');
     }
 
     /**
-     * This method uses the Afghanistan nationalCode validation algorithm to generate a valid 10-digit code
+     * This method uses the Afghanistan nationalCode validation algorithm to generate a valid 13-digit code
      *
      * @param string $area
      * @param string $core
@@ -105,15 +431,15 @@ class Person extends \Faker\Provider\Person
         $sum = 0;
         $count = 0;
 
-        for ($i = 10; $i > 1; --$i) {
-            $sum += $subNationalCodeString[$count] * ($i);
+        for ($i = 13; $i > 1; --$i) {
+            $sum += $subNationalCodeString[$count] * $i;
             ++$count;
         }
 
-        if (($sum % 11) < 2) {
-            return $sum % 11;
+        if ($sum % 13 < 2) {
+            return $sum % 13;
         }
 
-        return 11 - ($sum % 11);
+        return 13 - ($sum % 13);
     }
 }

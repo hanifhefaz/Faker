@@ -66,7 +66,7 @@ class Address extends \Faker\Provider\Address
         '{{buildingNamePrefix}} {{firstName}}',
     ];
 
-    protected static $postcode = ['##########'];
+    protected static $postcode = ['####'];
     protected static $country = ['افغانستان'];
 
     /**
